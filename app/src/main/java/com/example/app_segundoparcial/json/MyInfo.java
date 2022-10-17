@@ -1,15 +1,36 @@
 package com.example.app_segundoparcial.json;
 
+import java.io.Serializable;
 import java.lang.reflect.Array;
 
-public class MyInfo {
+public class MyInfo implements Serializable{
     private String usuario;
     private String pass;
     private String correo;
     private Boolean sexo;
     private String fecha;
-    private Integer tel;
-    private Array TipoUsu;
+    private String tel;
+    private String[] TipoUsu;
+    private String passConfirm;
+    private Boolean notificaciones;
+
+    public MyInfo() {
+    }
+    public Boolean getNotificaciones() {
+        return notificaciones;
+    }
+
+    public void setNotificaciones(Boolean notificaciones) {
+        this.notificaciones = notificaciones;
+    }
+
+    public String getPassConfirm() {
+        return passConfirm;
+    }
+
+    public void setPassConfirm(String passConfirm) {
+        this.passConfirm = passConfirm;
+    }
 
     public Boolean getSexo() {
         return sexo;
@@ -19,20 +40,12 @@ public class MyInfo {
         this.sexo = sexo;
     }
 
-    public Array getTipoUsu() {
-        return TipoUsu;
-    }
-
-    public Integer getTel() {
+    public String getTel() {
         return tel;
     }
 
-    public void setTel(Integer tel) {
+    public void setTel(String tel) {
         this.tel = tel;
-    }
-
-    public void setTipoUsu(Array tipoUsu) {
-        TipoUsu = tipoUsu;
     }
 
     public String getFecha() {
@@ -65,5 +78,13 @@ public class MyInfo {
 
     public void setCorreo(String correo) {
         this.correo = correo;
+    }
+
+    public String[] getTipoUsu() {
+        return TipoUsu;
+    }
+
+    public void setTipoUsu(String[] tipoUsu) {
+        TipoUsu = tipoUsu;
     }
 }
