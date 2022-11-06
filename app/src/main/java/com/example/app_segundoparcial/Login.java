@@ -86,9 +86,9 @@ public class Login extends AppCompatActivity {
                                     for(MyInfo myInfo : list){
                                         if(myInfo.getCorreo().equals(mailL) && myInfo.getPass().equals(Password)){
                                             Intent intent = new Intent(Login.this, Bienvenido.class);
+                                            intent.putExtra("Objeto", myInfo);
                                             startActivity(intent);
                                         }else{
-                                            Toast.makeText(getApplicationContext(), "El correo o contraseña ingresados son incorrectos", Toast.LENGTH_LONG).show();
                                         }
                                     }
                                 }
