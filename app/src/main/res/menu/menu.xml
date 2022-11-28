@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_id"
+        android:title="@string/add_pass" />
+    <item
+        android:id="@+id/edit_id"
+        android:title="@string/editPass" />
+    <item
+        android:id="@+id/del_id"
+        android:title="@string/delPass" />
+
+</menu>

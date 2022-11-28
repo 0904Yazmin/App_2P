@@ -9,4 +9,14 @@
     <string name="ragistrarLabel">Registrarme</string>
     <string name="cambiarLabel">Cambiar contraseña</string>
     <string name="inicioSesionLabel">Inicio de sesión</string>
+    <string name="nuevacontra">Agregar contraseña</string>
+    <string name="new_contra">Nueva contraseña</string>
+    <string name="red_s">Red social o sitio web</string>
+    <string name="add_pass">Agregar contraseña</string>
+    <string name="edit_pass">Editar contraseñas</string>
+    <string name="go">Ver contraseñas</string>
+    <string name="contrase_as">Contraseñas:</string>
+    <string name="agregarPass">Agregar contraseña</string>
+    <string name="delPass">Eliminar contraseña</string>
+    <string name="editPass">Editar contraseña</string>
 </resources>

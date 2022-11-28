@@ -35,7 +35,8 @@ import java.util.regex.Pattern;
 public class Formulario_registro extends AppCompatActivity implements View.OnClickListener{
     //
     private static final String TAG = "MainActivity";
-    public static final String archivo = "Archivo1.json";
+    //public static final String archivo = "Archivo1.json";
+    public static final String archivo = "archivo.json";
     String json = null;
     public static List<MyInfo> list =new ArrayList<MyInfo>();
 

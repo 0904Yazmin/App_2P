@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="add_id" type="id">menuAdd_Id</item>
+    <item name="edit_id" type="id">menuDel_Id</item>
+    <item name="del_id" type="id">menuEdit_Id</item>
+</resources>

@@ -2,6 +2,7 @@ package com.example.app_segundoparcial.json;
 
 import java.io.Serializable;
 import java.lang.reflect.Array;
+import java.util.List;
 
 public class MyInfo implements Serializable{
     private String usuario;
@@ -13,6 +14,15 @@ public class MyInfo implements Serializable{
     private String[] TipoUsu;
     private String passConfirm;
     private Boolean notificaciones;
+    private List<MyData> pswds;
+
+    public List<MyData> getPswds() {
+        return pswds;
+    }
+
+    public void setPswds(List<MyData> pswds) {
+        this.pswds = pswds;
+    }
 
     public MyInfo() {
     }
