@@ -2,9 +2,11 @@
     <string name="app_name">App_SegundoParcial</string>
     <string name="usuarioLabel">Usuario</string>
     <string name="passwordLabel">Contraseña</string>
+    <string name="passConfirmLabel">Confirmar contraseña</string>
     <string name="okLabel">Ingresar</string>
     <string name="olvideLabel">Olvidé mi contraseña</string>
     <string name="ragistroLabel">Registro</string>
     <string name="ragistrarLabel">Registrarme</string>
+    <string name="cambiarLabel">Cambiar contraseña</string>
     <string name="inicioSesionLabel">Inicio de sesión</string>
 </resources>
